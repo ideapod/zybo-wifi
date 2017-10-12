@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1507182380">
+  <File Type="PWROPT-DRC" Name="wifipmod_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="wifipmod_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="wifipmod_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="wifipmod_wrapper_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="wifipmod_wrapper.tcl"/>
+  <File Type="OPT-HWDEF" Name="wifipmod_wrapper.hwdef"/>
+  <File Type="RDI-RDI" Name="wifipmod_wrapper.vdi"/>
+  <File Type="OPT-DCP" Name="wifipmod_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="wifipmod_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="wifipmod_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="wifipmod_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="wifipmod_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="wifipmod_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="wifipmod_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="wifipmod_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="wifipmod_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="wifipmod_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="wifipmod_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="wifipmod_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="wifipmod_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="wifipmod_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="wifipmod_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="wifipmod_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="wifipmod_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="wifipmod_wrapper_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="wifipmod_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="wifipmod_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="wifipmod_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="wifipmod_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="wifipmod_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="wifipmod_wrapper_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="wifipmod_wrapper.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="wifipmod_wrapper_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="wifipmod_wrapper.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="wifipmod_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="wifipmod_wrapper.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="wifipmod_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="wifipmod_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="wifipmod_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="wifipmod_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="wifipmod_wrapper_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="wifipmod_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="wifipmod_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="wifipmod_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="wifipmod_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="wifipmod_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="wifipmod_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="wifipmod_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="wifipmod_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="wifipmod_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="wifipmod_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="wifipmod_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="wifipmod_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="wifipmod_wrapper.bit"/>
+  <File Type="BITSTR-RBT" Name="wifipmod_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="wifipmod_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="wifipmod_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="wifipmod_wrapper.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="wifipmod_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/wifipmod/wifipmod.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/wifipmod/hdl/wifipmod_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="wifipmod_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="wifipmod_PmodWIFI_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="wifipmod_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="wifipmod_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="wifipmod_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="wifipmod_processing_system7_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="wifipmod_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="wifipmod_axi_gpio_0_0"/>
+</GenRun>

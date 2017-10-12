@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct  5 16:49:56 2017
+# Process ID: 46204
+# Current directory: C:/dev/workspace/zybo-wifi/zybo-wifi.runs/wifipmod_xbar_0_synth_1
+# Command line: vivado.exe -log wifipmod_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wifipmod_xbar_0.tcl
+# Log file: C:/dev/workspace/zybo-wifi/zybo-wifi.runs/wifipmod_xbar_0_synth_1/wifipmod_xbar_0.vds
+# Journal file: C:/dev/workspace/zybo-wifi/zybo-wifi.runs/wifipmod_xbar_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source wifipmod_xbar_0.tcl -notrace

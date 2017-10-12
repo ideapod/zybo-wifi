@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct  5 16:52:19 2017
+# Process ID: 37764
+# Current directory: C:/dev/workspace/zybo-wifi/zybo-wifi.runs/wifipmod_axi_gpio_1_0_synth_1
+# Command line: vivado.exe -log wifipmod_axi_gpio_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wifipmod_axi_gpio_1_0.tcl
+# Log file: C:/dev/workspace/zybo-wifi/zybo-wifi.runs/wifipmod_axi_gpio_1_0_synth_1/wifipmod_axi_gpio_1_0.vds
+# Journal file: C:/dev/workspace/zybo-wifi/zybo-wifi.runs/wifipmod_axi_gpio_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source wifipmod_axi_gpio_1_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 397.914 ; gain = 78.777
+INFO: [Synth 8-638] synthesizing module 'wifipmod_axi_gpio_1_0' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ip/wifipmod_axi_gpio_1_0/synth/wifipmod_axi_gpio_1_0.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'wifipmod_axi_gpio_1_0' (8#1) [c:/dev/workspace/zybo-wifi/zybo-wifi.srcs/sources_1/bd/wifipmod/ip/wifipmod_axi_gpio_1_0/synth/wifipmod_axi_gpio_1_0.vhd:86]
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 439.996 ; gain = 120.859
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 439.996 ; gain = 120.859
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 740.273 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 740.273 ; gain = 421.137
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 740.273 ; gain = 421.137
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     6|
+|3     |LUT3 |     4|
+|4     |LUT4 |     7|
+|5     |LUT5 |    13|
+|6     |LUT6 |     7|
+|7     |FDR  |    16|
+|8     |FDRE |    41|
+|9     |FDSE |     4|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 740.273 ; gain = 421.137
+synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 740.273 ; gain = 428.902
